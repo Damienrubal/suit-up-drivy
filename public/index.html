@@ -2,20 +2,48 @@
 <html>
   <head>
     <title>CSS/HTML Workshop with Drivy</title>
+	<link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="car">
-      <input class="model" type="text" placeholder="Car model"/>
-      <input class="price-by-day" type="number" placeholder="Price by day"/>
-      <input class="price-by-km" type="number" placeholder="Price by km"/>
-    </div>
-    <div id="rental">
-      <input class="begin" type="date" placeholder="Rental begin date"/>
-      <input class="end" type="date" placeholder="Rental end date"/>
-      <input class="distance" type="number" placeholder="Distance in km"/>
-      <input class="option" type="checkbox" placeholder="Deductible option"/>
-    </div>
-    <button id="compute">Compute</button>
+  <p>
+	<h1  style="text-align:center">Soyez malin,<strong><span class="louez">Louez la voiture </span></strong> <span class="voisin">du voisin </span> </h1>
+	<h2 style="text-align:center">de la voisine..</h2>
+ </p>
+<form style="text-align:center">
+   
+  <fieldset>
+    <legend>Informations</legend>
+    
+      <input class="model" id="model_1" type="text" placeholder="Car model"/> <br />
+      <input class="price-by-day" id="price-by-day_1" type="number" placeholder="Price by day"/><br />
+      <input class="price-by-km" id="price-by-km_1" type="number" placeholder="Price by km"/><br />
+	  
+    
+       <label for="begin">START </label>
+      <input class="begin" type="date" placeholder="Rental begin date" id="begin_1" /><br />
+	  <label for="end">END </label>
+      <input class="end" type="date" placeholder="Rental end date" id="end_1" /><br />
+      <input class="distance" type="select" placeholder="Distance in km" id="distance_1" /><br />
+	  
+	  
+ 
+  </fieldset>
+</form>
+
+
+
+	<p class="button">
+    <input src="voiture002.gif"  type="image" value="Validation" name="B1">
+	</p>
+	
+<footer>
+	<a class="fb" href="https://fr-fr.facebook.com/drivyfr/"><img src="facebook.png"/></a>
+	<a class="twitter" href="https://twitter.com/drivy" > <img src="twitter.PNG"  /> </a>
+	<a class="drivy" href="https://www.drivy.com/" > <img src="promotions-locations-voiture-drivy.png"  /> </a>
+	
+</footer>
+	
+		
     <div id="actors"></div>
     <script id="template" type="x-tmpl-mustache">
       {{#actors}}

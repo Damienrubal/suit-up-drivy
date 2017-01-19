@@ -1,0 +1,161 @@
+
+h1
+{
+    color: white;
+	font-size:Xlarge;
+	font-weight:bold;
+	font-family: Verdana,Impact;
+	margin-top:60px;
+}
+h2
+{
+    color: white;
+	font-size:Xlarge;
+	font-weight:bold;
+	font-family: Verdana,Impact;
+}
+.voisin
+{
+    color: white ;
+	font-size:Xlarge;
+	font-weight:bold;
+	font-family: Verdana,Impact;
+	text-decoration: line-through;
+}
+.louez
+{
+	color:black;
+}
+.model
+{
+	
+	height:30px;
+	width:300px;
+	margin-bottom:30px;
+	border:1px solid #F5C5C5;
+	border-radius:5px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+
+.price-by-day
+{
+	height:30px;
+	width:300px;
+	border:1px solid #F5C5C5;
+	border-radius:5px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+	
+	
+}
+.price-by-km
+{
+	height:30px;
+	width:300px;
+	margin-bottom:30px;
+	border:1px solid #F5C5C5;
+	border-radius:5px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+	
+}
+label
+{
+	font-weight:bold;
+	font-family: Verdana,Impact;
+	
+	
+	
+}
+.begin
+{
+	height:30px;
+	width:200px;
+	border:1px solid #F5C5C5;
+	border-radius:5px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+	
+	
+}
+.end
+{
+	height:30px;
+	width:200px;
+	margin-bottom:30px;
+	border:1px solid #F5C5C5;
+	border-radius:5px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+	margin-left:15px;
+	
+}
+
+.distance
+{
+	height:30px;
+	width:300px;
+	margin-bottom:30px;
+	border:1px solid #F5C5C5;
+	border-radius:5px;
+    box-shadow:1px 1px 2px #C0C0C0 inset;
+	
+}
+
+
+legend
+{
+    font-style: italic;
+}
+
+form
+{
+	width: 350px; /* On a indiqué une largeur (obligatoire) */
+    margin: auto; /* On peut donc demander à ce que le bloc soit centré avec auto */
+ 
+    text-align: justify;
+    padding: 12px;
+	
+    margin-bottom: 20px;
+	
+}
+fieldset
+{
+	
+ background-color:rgba(255,255,255, 0.3);
+ 
+	
+}
+
+body
+{
+    background-image: url("20121104222738-657bed0f.jpg");
+	background-repeat; no-repeat;
+	
+	
+}
+
+.button
+{
+	
+	text-align:center;
+	
+}
+
+
+img
+{
+	width:50px;
+	height:auto;
+	
+}	
+
+fb
+{
+	margin-left:10px;
+}
+twitter
+{
+	margin-left:20px;
+}
+drivy
+{
+	margin-left:30px;
+}
+	
